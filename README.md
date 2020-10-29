@@ -12,6 +12,7 @@
 * Choose the export folder on your computer by a document property (« C:\\ »…)
 * Customize the name of the export file by a document property (« _2017 », « _ByMe »…)
 
+
 `IronPython Code`
 
     from System.IO import Path, File, StreamWriter
@@ -41,9 +42,12 @@
 
 > You must pay attention to select your input for the selected script as below (« Viz1 », « Viz2 » and « Viz3 »).
 
+
 The objective is to give to each export the data visualization concerned : Viz3.As[TablePlot] is concerning the Viz3 selected as input. Then, as you can see on the script above, x and y are defined as the ReportingDate and ReportingFolder’ document properties. Both can be modify directly in the analysis by input fields (HTML).
 
+
 <p align="center"><img src="http://dataviz-ressources.com/wp-content/uploads/2017/04/Spotfire-Export-Tuto.png" /></p>
+
 
 ## 👤 Author
 <table>
@@ -56,8 +60,7 @@ The objective is to give to each export the data visualization concerned : Viz3.
   </tr>
 </table>
   
+  
 ## Show your support
 Give a ⭐️ if this project helped you. Contributions, issues and feature requests are welcome!
-
-
-<a href="https://www.buymeacoffee.com/batlib"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=batlib&button_colour=5F7FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"></a>***
+<a href="https://www.buymeacoffee.com/batlib"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=batlib&button_colour=5F7FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"></a>
