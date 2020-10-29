@@ -13,13 +13,14 @@
 * Customize the name of the export file by a document property (« _2017 », « _ByMe »…)
 
 `IronPython Code`
+
     from System.IO import Path, File, StreamWriter
     from Spotfire.Dxp.Application.Visuals import TablePlot
     from System.IO import Path, File, StreamWriter
     from Spotfire.Dxp.Application.Visuals import TablePlot
     from Spotfire.Dxp.Data import DataPropertyClass
     from Spotfire.Dxp.Data import DataType
-
+    
     for d in Document.Data.Properties.GetProperties(0):
      if d.IsUserVisible and d.Name == "ReportingDate": x = d.Value
 
@@ -59,5 +60,5 @@ The objective is to give to each export the data visualization concerned : Viz3.
 Give a ⭐️ if this project helped you. Contributions, issues and feature requests are welcome!
 
 
-<a href="https://www.buymeacoffee.com/batlib" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 30% !important;width: 30% !important;" ></a>
+<a href="https://www.buymeacoffee.com/batlib" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 10% !important;width: 10% !important;" ></a>
 ***
